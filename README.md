@@ -29,8 +29,11 @@ sudo apt install nmap -y
 Start HTTP Server
 
 mkdir -p ~/project/http-server
+
 cd ~/project/http-server
+
 echo "<html><body><h1>Welcome to the Nmap Lab</h1></body></html>" > index.html
+
 python3 -m http.server 8000
 
 ---
